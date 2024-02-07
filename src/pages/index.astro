@@ -5,12 +5,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Social Links</title>
   </head>
-  <body>
-    <h1 class="">Astro</h1>
+  <body class="bg-base text-light flex justify-center align-center min-h-screen w-full">
+    <div class="gap-8 bg-secondary place-self-center text-center rounded-xl p-6 flex flex-col justify-center items-center">
+      <img class="rounded-full size-24" src="/images/avatar-jessica.jpeg" alt="">
+      <div class="flex flex-col justify-center gap-2">
+        <h1 class="text-2xl">Jessica Randall</h1>
+        <p class="text-sm text-accent font-semibold">London, United Kingdom</p>
+      </div>
+      <p class="text-sm">"Front-end developer and avid reader."</p>
+      <div class="flex flex-col gap-4">
+        <a class="font-semibold p-2 bg-primary min-w-72 rounded-lg hover:bg-accent hover:text-base transition-colors motion-reduce:transition-none" href="https://github.io">GitHub</a>
+        <a class="font-semibold p-2 bg-primary min-w-72 rounded-lg hover:bg-accent hover:text-base transition-colors motion-reduce:transition-none" href="#">Frontend Mentor</a>
+        <a class="font-semibold p-2 bg-primary min-w-72 rounded-lg hover:bg-accent hover:text-base transition-colors motion-reduce:transition-none" href="#">LinkedIn</a>
+        <a class="font-semibold p-2 bg-primary min-w-72 rounded-lg hover:bg-accent hover:text-base transition-colors motion-reduce:transition-none" href="#">Twitter</a>
+        <a class="font-semibold p-2 bg-primary min-w-72 rounded-lg hover:bg-accent hover:text-base transition-colors motion-reduce:transition-none" href="#">Instagram</a>
+      </div>
+    </div>
   </body>
 </html>
